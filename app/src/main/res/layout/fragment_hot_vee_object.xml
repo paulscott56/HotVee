@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="labs.dstvdm.com.hotvee.HotVeeObjectFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="347dp"
+        android:layout_height="347dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/dstv"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Synopsis of the TV show goes here..."
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|bottom|center_vertical" />
+
+    <ImageButton
+        android:layout_width="92dp"
+        android:layout_height="76dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="right|center_vertical"
+        android:src="@mipmap/heart"
+        android:clickable="true" />
+</FrameLayout>
